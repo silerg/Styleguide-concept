@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="https://www.logos.com/styles/styleguides/faithlifebase_unity.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--======= fonts ========-->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600.700,700i">
+        
+        <title>Faithlife Style Guide</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header__container">
+        
+        <!--====toggles i dont know how to handle yet=====-->
+        
+        <!--<a href="#" class="nav__link">
+                    <i class='bx bx-columns header__icon'></i>
+                </a>
+
+                <a href="#" class="nav__link sg-toggle-dark-mode">
+                    <i class='bx bxs-adjust header__icon'></i>
+                </a>-->
+                
+                <a href="#" class="nav__logo">
+                    <svg class="header__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="15" stroke="#3d3d3d" stroke-width="2"/>
+                        <rect x="6" y="6" width="20" height="20" stroke="#3d3d3d" stroke-width="2"/>
+                        <rect x="9" y="19" width="4" height="4" fill="#3d3d3d"/>
+                        <rect x="14" y="19" width="4" height="4" fill="#3d3d3d"/>
+                        <rect x="14" y="14" width="4" height="4" fill="#3d3d3d"/>
+                        <rect x="19" y="19" width="4" height="4" fill="#3d3d3d"/>
+                        <rect x="19" y="14" width="4" height="4" fill="#3d3d3d"/>
+                        <rect x="19" y="9" width="4" height="4" fill="#3d3d3d"/>
+                        </svg>
+                <span class="nav__logo-name">Faithlife Style Guide</span>
+            </a>
+                <div class="header__controls">
+                    <a href="#" class="toggle-dark-mode"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.75 10.0833H0V11.9167H2.75V10.0833Z" fill="#7A7A7A"/>
+                    <path d="M3.86953 2.57349L2.57318 3.86984L4.51771 5.81437L5.81406 4.51802L3.86953 2.57349Z" fill="#7A7A7A"/>
+                    <path d="M11.9166 0H10.0833V2.75H11.9166V0Z" fill="#7A7A7A"/>
+                    <path d="M18.1299 2.57337L16.1854 4.5179L17.4818 5.81425L19.4263 3.86972L18.1299 2.57337Z" fill="#7A7A7A"/>
+                    <path d="M22 10.0833H19.25V11.9167H22V10.0833Z" fill="#7A7A7A"/>
+                    <path d="M17.482 16.1856L16.1857 17.482L18.1302 19.4265L19.4265 18.1302L17.482 16.1856Z" fill="#7A7A7A"/>
+                    <path d="M11.9166 19.25H10.0833V22H11.9166V19.25Z" fill="#7A7A7A"/>
+                    <path d="M4.51783 16.1858L2.5733 18.1303L3.86965 19.4266L5.81418 17.4821L4.51783 16.1858Z" fill="#7A7A7A"/>
+                    <path d="M11 4.58333C7.46256 4.58333 4.58331 7.46166 4.58331 11C4.58331 14.5383 7.46256 17.4167 11 17.4167C14.5374 17.4167 17.4166 14.5383 17.4166 11C17.4166 7.46166 14.5374 4.58333 11 4.58333ZM6.41665 11C6.41665 8.47274 8.47273 6.41666 11 6.41666V15.5833C8.47273 15.5833 6.41665 13.5272 6.41665 11Z" fill="#7A7A7A"/>
+                    </svg>
+                    </a>
+                    <div class="header__toggle">
+                        <i class='bx bx-menu' id="header-toggle"></i>
+                    </div>
+                </div>    
+            </div>
+        </header>
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container ">
+                <div>
+                    <!--====<a href="#" class="nav__link nav__logo">
+                            <svg class='nav__icon' width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="15" stroke="#7A7A7A" stroke-width="2"/>
+                                <rect x="6" y="6" width="20" height="20" stroke="#7A7A7A" stroke-width="2"/>
+                                <rect x="9" y="19" width="4" height="4" fill="#7A7A7A"/>
+                                <rect x="14" y="19" width="4" height="4" fill="#7A7A7A"/>
+                                <rect x="14" y="14" width="4" height="4" fill="#7A7A7A"/>
+                                <rect x="19" y="19" width="4" height="4" fill="#7A7A7A"/>
+                                <rect x="19" y="14" width="4" height="4" fill="#7A7A7A"/>
+                                <rect x="19" y="9" width="4" height="4" fill="#7A7A7A"/>
+                                </svg>
+                        <span class="nav__logo-name">Faithlife Style Guide</span>
+                    </a>
+                    <hr>=====-->
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Overview</h3>
+    
+                            <a href="#" class="nav__link">
+                        
+                                <span class="nav__name">Task List</span>
+                            </a>
+
+                            <a href="#" class="nav__link">
+                        
+                                <span class="nav__name">How to use this Styleguide</span>
+                            </a>
+
+                            <a href="#" class="nav__link">
+                        
+                                <span class="nav__name">Design Documentation</span>
+                            </a>
+
+                            <a href="#" class="nav__link">
+                            
+                                <span class="nav__name">Resources</span>
+                            </a>
+
+                            <a href="#" class="nav__link">
+                            
+                                <span class="nav__name">SEO Best Practices</span>
+                            </a>
+
+                            <a href="#" class="nav__link">
+                            
+                                <span class="nav__name">Common Assets</span>
+                            </a>
+                            
+                        </div>
+    
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Components</h3>
+                            
+                            <div>
+                                <div class="nav__dropdown">
+                                    <a href="#" class="nav__link">
+                                            <svg class="nav__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="24" height="24" />
+                                                <rect x="2" y="2" width="20" height="20" rx="2" stroke="#7A7A7A" stroke-width="2"/>
+                                                <rect x="1" y="5" width="22" height="2" fill="#7A7A7A"/>
+                                                <rect x="5" y="10" width="8" height="8" fill="#7A7A7A"/>
+                                                <rect x="14" y="10" width="5" height="2" fill="#7A7A7A"/>
+                                                <rect x="14" y="13" width="5" height="2" fill="#7A7A7A"/>
+                                                <rect x="14" y="16" width="5" height="2" fill="#7A7A7A"/>
+                                                </svg>
+                                        <span class="nav__name">Major Components</span>
+                                        <svg class="nav__icon nav__dropdown-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99949 8L12 12.0005L16.0005 8L18 9.99949L12 15.9995L6 9.99949L7.99949 8Z" fill="#7A7A7A"/>
+                                        </svg>
+                                            
+                                            
+                                            
+                                    </a>
+                                </div>
+                                <div class="nav__dropdown__collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Four Up</a>
+                                        <a href="#" class="nav__dropdown-item">Media Block Bleed</a>
+                                        <a href="#" class="nav__dropdown-item">Media Grid</a>
+                                        <a href="#" class="nav__dropdown-item">Product Grid</a>
+                                        <a href="#" class="nav__dropdown-item">Pushed Text Block</a>
+                                        <a href="#" class="nav__dropdown-item">Row of Lists</a>
+                                        <a href="#" class="nav__dropdown-item">Three Up</a>
+                                        <a href="#" class="nav__dropdown-item">Two-col (FAQ Section)</a>
+                                
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Feature Snippets</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Highlighted Feature</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div> 
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Media Split (RTB)</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div> 
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Product Lineup</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>     
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="nav__dropdown">
+                                    <a href="#" class="nav__link">
+                                        <svg class="nav__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="24" height="24" />
+                                            <rect x="2" y="2" width="20" height="20" rx="2" stroke="#7A7A7A" stroke-width="2"/>
+                                            <rect x="1" y="5" width="22" height="2" fill="#7A7A7A"/>
+                                            <rect x="5" y="13" width="14" height="1" fill="#7A7A7A"/>
+                                            <rect x="5" y="11" width="14" height="1" fill="#7A7A7A"/>
+                                            <rect x="5" y="9" width="14" height="1" fill="#7A7A7A"/>
+                                            <rect x="5" y="16" width="4" height="3" fill="#7A7A7A"/>
+                                            <rect x="10" y="16" width="4" height="3" fill="#7A7A7A"/>
+                                            <rect x="15" y="16" width="4" height="3" fill="#7A7A7A"/>
+                                            </svg>                                            
+                                        <span class="nav__name">Minor Components</span>
+                                        <svg class="nav__icon nav__dropdown-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99949 8L12 12.0005L16.0005 8L18 9.99949L12 15.9995L6 9.99949L7.99949 8Z" fill="#7A7A7A"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="nav__dropdown__collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Accordion List</a>
+                                        <a href="#" class="nav__dropdown-item">Attention Block</a>
+                                        <a href="#" class="nav__dropdown-item">BlockQuote</a>
+                                        <a href="#" class="nav__dropdown-item">Buttons</a>
+                                        <a href="#" class="nav__dropdown-item">Buy Buttons</a>
+                                        <a href="#" class="nav__dropdown-item">Forms</a>
+                                        <a href="#" class="nav__dropdown-item">Horizontal Rule</a>
+                                        <a href="#" class="nav__dropdown-item">Product</a>
+                                        <a href="#" class="nav__dropdown-item">Video Thumbnail</a>
+
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">New Buttons</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Circle Icons</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div> 
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Control Button</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div> 
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">FaithlifeTV Embed</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Icon Bar</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Product Tag</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div> 
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Media Strips</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div> 
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Persona Card</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            <div>
+                                <div class="nav__dropdown">
+                                    <a href="#" class="nav__link">
+                                        <svg class="nav__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="24" height="24"/>
+                                            <rect x="2" y="2" width="20" height="20" rx="2" stroke="#7A7A7A" stroke-width="2"/>
+                                            <rect x="1" y="5" width="22" height="2" fill="#7A7A7A"/>
+                                            <rect x="5" y="9" width="14" height="8" fill="#7A7A7A"/>
+                                            <rect x="5" y="18" width="7" height="1" fill="#7A7A7A"/>
+                                            <rect x="14" y="18" width="5" height="1" fill="#7A7A7A"/>
+                                            </svg>                                            
+                                        <span class="nav__name">Stand Alone Components</span>
+                                        <svg class="nav__icon nav__dropdown-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99949 8L12 12.0005L16.0005 8L18 9.99949L12 15.9995L6 9.99949L7.99949 8Z" fill="#7A7A7A"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="nav__dropdown__collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Billboard</a>
+                                        <a href="#" class="nav__dropdown-item">Email Capture</a>
+                                        <a href="#" class="nav__dropdown-item">Secondary Nav</a>
+                                        <a href="#" class="nav__dropdown-item">Section</a>
+                                        <a href="#" class="nav__dropdown-item">Video Header</a>
+                                        
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Additional Features</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">By the Numbers</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Case Study</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Comparison Table</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">CTA Cards</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Download Cards</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Endorsements</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Features All Up</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Four Up</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Hero Header</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Media Strip Hero</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Mid Page CTA</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Nav Picker</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Persona Cards</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Platform Features</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Secondary CTA</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Problem/Solution</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Section</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Section Platforms</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Social Proof</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Three Up</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Utilities</h3>
+                            <div>
+                                <div class="nav__dropdown">
+                                    <a href="#" class="nav__link">
+                                        <svg class="nav__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="24" height="24"/>
+                                            <path d="M22.0834 3.75H12.9167V5.58333H22.0834C22.5894 5.58333 23 5.17267 23 4.66667C23 4.16067 22.5894 3.75 22.0834 3.75Z" fill="#7A7A7A"/>
+                                            <path d="M1.91667 5.58333H3.88017C4.28992 7.16 5.7135 8.33333 7.41667 8.33333C9.43883 8.33333 11.0833 6.68883 11.0833 4.66667C11.0833 2.6445 9.43883 1 7.41667 1C5.7135 1 4.28992 2.17333 3.88017 3.75H1.91667C1.41067 3.75 1 4.16067 1 4.66667C1 5.17267 1.41067 5.58333 1.91667 5.58333Z" fill="#7A7A7A"/>
+                                            <path d="M22.0833 11.0833H20.25V12.9167H22.0833C22.5893 12.9167 23 12.506 23 12C23 11.494 22.5893 11.0833 22.0833 11.0833Z" fill="#7A7A7A"/>
+                                            <path d="M1.91667 12.9167H11.2135C11.6232 14.4933 13.0468 15.6667 14.75 15.6667C16.7722 15.6667 18.4167 14.0222 18.4167 12C18.4167 9.97784 16.7722 8.33334 14.75 8.33334C13.0468 8.33334 11.6232 9.50668 11.2135 11.0833H1.91667C1.41067 11.0833 1 11.494 1 12C1 12.506 1.41067 12.9167 1.91667 12.9167Z" fill="#7A7A7A"/>
+                                            <path d="M22.0834 18.4167H12.9167V20.25H22.0834C22.5894 20.25 23 19.8393 23 19.3333C23 18.8273 22.5894 18.4167 22.0834 18.4167Z" fill="#7A7A7A"/>
+                                            <path d="M7.41667 15.6667C5.7135 15.6667 4.28992 16.84 3.88017 18.4167H1.91667C1.41067 18.4167 1 18.8273 1 19.3333C1 19.8393 1.41067 20.25 1.91667 20.25H3.88017C4.28992 21.8267 5.7135 23 7.41667 23C9.43883 23 11.0833 21.3555 11.0833 19.3333C11.0833 17.3112 9.43883 15.6667 7.41667 15.6667Z" fill="#7A7A7A"/>
+                                            </svg>
+                                            
+                                                                                   
+                                        <span class="nav__name">Utility Classes</span>
+                                        <svg class="nav__icon nav__dropdown-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99949 8L12 12.0005L16.0005 8L18 9.99949L12 15.9995L6 9.99949L7.99949 8Z" fill="#7A7A7A"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="nav__dropdown__collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Backgrounds</a>
+                                        <a href="#" class="nav__dropdown-item">Line Break</a>
+                                        <a href="#" class="nav__dropdown-item">Line Limit</a>
+                                        <a href="#" class="nav__dropdown-item">Responsive Hide</a>
+                                        <a href="#" class="nav__dropdown-item">Smush</a>
+                                        <a href="#" class="nav__dropdown-item">Text Center</a>
+                                        
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Accordion</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Backgrounds</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Center</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Dark Mode</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Font Overrides</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Lazy Load</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        <div class="nav__dropdown-content__unity">
+                                            <a href="#" class="nav__dropdown-item">Motion</a>
+                                            <span class="unity_tag">unity</span>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="nav__dropdown">
+                                    <a href="#" class="nav__link">
+                                        <svg class="nav__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="24" height="24" />
+                                            <path d="M12.3791 15.6629L14.2106 13.8315L12.9157 12.5366L11.0843 14.3681L9.63192 12.9157L11.4634 11.0843L10.1685 9.78943L8.33708 11.6209L7.12008 10.4048C6.94836 10.2331 6.71548 10.1367 6.47266 10.1367C6.22984 10.1367 5.99696 10.2331 5.82524 10.4048L4.45165 11.7784C3.53313 12.6957 2.96977 13.9091 2.86179 15.2027C2.7538 16.4963 3.10819 17.7863 3.86192 18.8432L1.27956 21.4256C1.1921 21.5101 1.12234 21.6111 1.07435 21.7228C1.02635 21.8346 1.00109 21.9547 1.00003 22.0763C0.998978 22.1979 1.02215 22.3185 1.06819 22.431C1.11423 22.5436 1.18223 22.6458 1.26821 22.7318C1.35419 22.8178 1.45643 22.8858 1.56897 22.9318C1.68151 22.9779 1.8021 23.001 1.92369 23C2.04528 22.9989 2.16544 22.9736 2.27716 22.9257C2.38888 22.8777 2.48993 22.8079 2.5744 22.7204L5.15676 20.1381C6.21384 20.8919 7.50409 21.2463 8.79793 21.1382C10.0918 21.03 11.3053 20.4663 12.2225 19.5474L13.5961 18.1738C13.7678 18.0021 13.8642 17.7692 13.8642 17.5264C13.8642 17.2836 13.7678 17.0507 13.5961 16.879L12.3791 15.6629Z" fill="#7A7A7A"/>
+                                            <path d="M16.8799 13.5952C17.0516 13.7669 17.2845 13.8633 17.5273 13.8633C17.7701 13.8633 18.003 13.7669 18.1747 13.5952L19.5483 12.2216C20.4668 11.3043 21.0302 10.0909 21.1382 8.79728C21.2462 7.50365 20.8918 6.21366 20.1381 5.15676L22.7204 2.5744C22.8079 2.48993 22.8776 2.38888 22.9256 2.27716C22.9736 2.16544 22.9989 2.04528 22.9999 1.92369C23.001 1.8021 22.9778 1.68151 22.9318 1.56897C22.8857 1.45643 22.8177 1.35419 22.7318 1.26821C22.6458 1.18223 22.5435 1.11423 22.431 1.06819C22.3185 1.02215 22.1979 0.998978 22.0763 1.00003C21.9547 1.00109 21.8345 1.02635 21.7228 1.07435C21.6111 1.12234 21.51 1.1921 21.4256 1.27956L18.8432 3.86192C17.7861 3.10806 16.4959 2.75369 15.202 2.86184C13.9082 2.97 12.6947 3.53367 11.7774 4.45256L10.4039 5.82615C10.2322 5.99788 10.1357 6.23076 10.1357 6.47358C10.1357 6.71639 10.2322 6.94927 10.4039 7.121L16.8799 13.5952Z" fill="#7A7A7A"/>
+                                            </svg>
+                                            
+                                                                                        
+                                        <span class="nav__name">Plugins</span>
+                                        <svg class="nav__icon nav__dropdown-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99949 8L12 12.0005L16.0005 8L18 9.99949L12 15.9995L6 9.99949L7.99949 8Z" fill="#7A7A7A"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="nav__dropdown__collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">AJAX Buy Button</a>
+                                        <a href="#" class="nav__dropdown-item">Expand/Collapse</a>
+                                        <a href="#" class="nav__dropdown-item">Set Equal Height</a>
+                                        <a href="#" class="nav__dropdown-item">Video Background</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <!--<a href="#" class="nav__link">
+                                <i class='bx bx-bookmark nav__icon' ></i>
+                                <span class="nav__name">Motion</span>
+                            </a>-->
+
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+        <main class="faithlifebase faithlifebase_unity">
+            
+            <div class="sg-content" style="padding:24px;"">
+                <article id="overview" class="">
+                    <div class="" >
+                        <header class="">
+                            <p class="ui3" style="text-transform: uppercase; letter-spacing: 0.093em; font-weight: 600;">Overview</p>
+                            <h2 class="h2">How to Use Faithlife Styles</h2>
+                            <p class="b1">This style guide is intended as a reference for all HTML, CSS, and JavaScript code in Faithlife content items. Some pages will require deviations, but this style guide should be followed as much as possible for the sake of consistency, efficiency, and maintainability.</p>    
+                        </header>
+                    </div>
+                    
+                    <aside class="notice">
+                        <h4 class="notice__h4">Faithlifebase Unification updates <span class="unity_tag">unity</span></h4>
+                        <p> In order to unify the styling between the various lines of business, an addition to the main Faithlife Style Guide has been added. <a href="#">See full unification documentation</a> </p>
+                        
+                    </aside>
+
+                    <div class="" style="margin-bottom: 56px;">
+                        <h3 class="h3">Content</h3>
+                        <p class="b1">To get started with Faithlife styles, create a new content item using the following template.</p>
+                        <span class="sg-label">
+                            <pre>&lt;main class="faithlifebase"&gt;
+                      
+                            &lt;/main&gt;</pre>
+                        </span>
+                        <p class="b1">All HTML should go inside the <code>&lt;main&gt;</code> element. Each category of HTML in this style guide has certain limitations regarding where it can go. Everything should be placed inside <a href="#standalone-section">Section</a> components except for other Standalone Components.</p>
+                    </div>
+                    
+                    <div class="" style="margin-bottom: 56px;">
+                        <h3 class="h3">Styles</h3>
+                        <p class="b1">To connect your project to this styleguide be sure to include it in the external styles section in Content Admin. This will automatically add it in the <code>&lt;head&gt;</code> of your new page in its own <code>&lt;link&gt;</code> tag.</p>
+                        <span class="sg-label">https://www.logos.com/styles/styleguides/faithlifebase.css</span>
+                    </div>
+
+                    <div class="" style="margin-bottom: 56px;">
+                        <h3 class="h3">Benefits of Using a Style Guide</h3>
+                        <ul>
+                            <li>
+                              Saves time for designers
+                              <ul>
+                                <li>Prevents redundant/duplicate work</li>
+                                <li>Suggests a library of components that designers can use in their mockups</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Saves time for developers
+                              <ul>
+                                <li>The same component (e.g. Product) can be updated across hundreds of pages at the same time</li>
+                                <li>Empowers marketers to create pages without needing to ask developers</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Saves time for marketers
+                              <ul>
+                                <li>HTML can be copy/pasted directly from the style guide</li>
+                                <li>Project management time is reduced as less design and development work are needed</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Improves user experience
+                              <ul>
+                                <li>Ensures consistent visuals across Faithlife monolithic brand sites</li>
+                                <li>Prevents buggy pages since Faithlife styles will undergo greater quality assurance than one-off code</li>
+                              </ul>
+                            </li>
+                          </ul>
+                    </div>
+                    <div>
+                        <h3 class="h3">Changes to This Style Guide</h3>
+                        <p>Should something in this style guide be modified? Should something be added? Please <a href="https://wiki.lrscorp.net/Marketing_Requests">submit a request</a>.</p>
+                    </div>
+                </article> 
+            </div>
+        </main>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script src="https://www.logos.com/scripts/styleguides/faithlifebase.js"></script>
+    </body>
+</html>
